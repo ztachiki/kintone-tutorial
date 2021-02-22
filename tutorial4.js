@@ -1,6 +1,7 @@
 (function () {
     "use strict"
     kintone.events.on('app.record.detail.show', function(event) {
+
         var myMenuButton = document.createElement('button');
         myMenuButton.id = 'my_menu_button';
         myMenuButton.innerText = 'ボタン';
